@@ -2,6 +2,8 @@
 This is a repository which stores a starting template to create a RESTful API
 
 # Server Starting Code
+
+```javascript
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
@@ -30,3 +32,4 @@ app.post("/", function (request, response) {
 app.listen(5000, function () {
   console.log("Server started on port 5000");
 });
+```
